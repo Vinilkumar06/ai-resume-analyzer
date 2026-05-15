@@ -40,3 +40,4 @@ docker-compose up --build
 ## Stack
 - **Backend**: FastAPI, Motor, MongoDB, scikit-learn, pdfplumber, ReportLab
 - **Frontend**: React 18, Recharts, react-dropzone, Tailwind CSS
+" " 
