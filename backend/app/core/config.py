@@ -7,8 +7,7 @@ class Settings(BaseSettings):
     DATABASE_NAME: str = "resume_analyzer"
     UPLOAD_DIR: str = "uploads"
     MAX_FILE_SIZE: int = 10 * 1024 * 1024  # 10 MB
-    ALLOWED_ORIGINS: List[str] = ["http://localhost:3000", 
-                                  "https://ai-resume-analyzer-one-rho.vercel.app"]
+    ALLOWED_ORIGINS: List[str] = ["*"]
 
     class Config:
         env_file = ".env"
