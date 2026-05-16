@@ -40,3 +40,6 @@ Thumbs.db
 
 # MongoDB
 data/
+
+.vercel
+.env*.local
